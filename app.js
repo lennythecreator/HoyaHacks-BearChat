@@ -36,7 +36,7 @@ async function handleUserInput() {
 
         try {
             // Send user input to Azure OpenAI API and fetch response
-            const response = await fetch('https://bearchat01.openai.azure.com/openai/deployments/BearChat/chat/completions?api-version=2023-07-01-preview', {
+            const response = await fetch('Link goes here', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
